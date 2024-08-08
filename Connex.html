@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connexion - Merveille Fashion</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Connex.css"> <!-- Assurez-vous d'ajouter un fichier CSS personnalisé si nécessaire -->
+</head>
+<body>
+
+<div class="container">
+  <div class="row justify-content-center mt-5">
+    <div class="col-md-6">
+      <div class="card">
+        <h5 class="card-header text-center">Connexion</h5>
+        <div class="card-body">
+          <form id="connexionForm">
+            <div class="form-group">
+              <label for="inputEmail">Adresse Email</label>
+              <input type="email" class="form-control" id="inputEmail" required>
+            </div>
+            <div class="form-group">
+              <label for="inputPassword">Mot de passe</label>
+              <input type="password" class="form-control" id="inputPassword" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Se connecter</button>
+          </form>
+          <div class="text-center mt-3">
+            <p>Pas encore de compte ? <a href="Inscrit.html">Inscrivez-vous ici</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.getElementById('connexionForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Empêcher l'envoi du formulaire par défaut
+
+    // Ajoutez ici le code pour vérifier l'authentification (simulé ici)
+    // Vous pouvez ajouter ici des vérifications côté client ou côté serveur
+
+    // Redirection vers la page d'accueil après connexion
+    window.location.href = 'index.html'; // Assurez-vous que 'index.html' est le chemin correct vers votre page d'accueil
+  });
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

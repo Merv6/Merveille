@@ -1,0 +1,74 @@
+
+/* Styles personnalisés */
+
+:root {
+    --color-primary: #4CAF50; 
+    --color-secondary: #FF9800; 
+    --color-bg: #FFFFFF; 
+    --color-text: #333333; 
+  }
+  
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+  }
+  
+  .navbar {
+    background-color: var(--color-primary);
+  }
+  
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: var(--color-text);
+  }
+  
+  .navbar-toggler-icon {
+    color: var(--color-text);
+  }
+  
+  .jumbotron {
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+  }
+  
+  .btn-primary {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: darken(var(--color-primary), 10%);
+  }
+  
+  .container {
+    max-width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px solid var(--color-primary);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+  }
+  
+  .footer a {
+    color: var(--color-text);
+  }
+  
+  /* Ajustement pour les images */
+  .img-fluid {
+    width: 100%; /* Les images occupent 100% de la largeur disponible */
+    height: auto; /* Hauteur automatique pour garder le ratio */
+    margin-bottom: 20px; /* Espacement entre les images */
+    object-fit: cover; /* Ajustement pour couvrir complètement la zone de l'image */
+  }
+  
+  .rounded {
+    border-radius: 10px; /* Arrondir les coins des images */
+  }
+  

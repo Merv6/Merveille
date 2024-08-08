@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vos Avis - Vêtement en ligne</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="Avis.css">
+</head>
+<body>
+    <main role="main">
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">Vos Avis</h1>
+                <p class="lead text-muted">Partagez votre expérience avec nous.</p>
+            </div>
+        </section>
+
+        <div class="container">
+            <h2>Laissez votre avis</h2>
+            <form id="AvisForm" action="index.html">
+                <div class="form-group">
+                    <label for="inputName">Nom</label>
+                    <input type="text" class="form-control" id="inputName" required>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" required> <!-- Change type to email for email input -->
+                </div>
+                <div class="form-group">
+                    <label for="inputComment">Commentaire</label>
+                    <textarea class="form-control" id="inputComment" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Retour en haut</a>
+            </p>
+            <p>© Vêtement en ligne</p>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

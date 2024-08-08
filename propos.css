@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #444;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.list-unstyled li {
+    padding-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #17a2b8; /* Bleu turquoise */
+    border-color: #17a2b8;
+    color: #fff; /* Texte blanc */
+}
+
+.btn-primary:hover {
+    background-color: #138496; /* Bleu turquoise plus foncé */
+    border-color: #138496;
+}
+
+#cta h2, #cta p {
+    color: #6c757d; /* Gris acier */
+}

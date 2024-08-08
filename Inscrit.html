@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscription - Merveille Fashion</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Inscrit.css">
+</head>
+<body>
+
+<div class="container">
+  <h2 class="text-center mb-4">Inscription</h2>
+  <form id="inscriptionForm">
+    <div class="form-group">
+      <label for="inputFirstName">Prenom</label>
+      <input type="text" class="form-control" id="inputFirstName" required>
+    </div>
+    <div class="form-group">
+      <label for="inputLastName">Nom</label>
+      <input type="text" class="form-control" id="inputLastName" required>
+    </div>
+    <div class="form-group">
+      <label for="inputEmail">Adresse Email</label>
+      <input type="email" class="form-control" id="inputEmail" required>
+    </div>
+    <div class="form-group">
+      <label for="inputPassword">Mot de passe</label>
+      <input type="password" class="form-control" id="inputPassword" required>
+    </div>
+    <div class="form-group">
+      <label for="confirmPassword">Confirmer le mot de passe</label>
+      <input type="password" class="form-control" id="confirmPassword" required>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block">S'inscrit</button>
+  </form>
+  <div class="text-center mt-3">
+    <p>Vous avez de compte ? <a href="Connex.html">Connecter vous</a></p>
+  </div>
+</div>
+<script>
+  document.getElementById('inscriptionForm').addEventListener('submit', function(event) {
+    // Empêcher le comportement par défaut du formulaire (l'envoi du formulaire)
+    event.preventDefault();
+
+    // Récupérer les valeurs des champs (si vous avez besoin de les utiliser pour quelque chose)
+
+    // Rediriger l'utilisateur vers la page d'accueil après inscription
+    window.location.href = 'index.html'; // Assurez-vous que 'index.html' est le chemin correct vers votre page d'accueil
+  });
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

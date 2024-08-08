@@ -1,0 +1,9 @@
+// Récupérer les données du formulaire
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $inputFirstName = $_POST["prenom"];
+    $inputLastName = $_POST["nom"];
+    $inputEmail = $_POST["email"];
+    $inputPassword = $_POST["motdepasse"];
+    $confirmPassword = $_POST["motdepasse"];
+    // Ajouter d'autres champs si nécessaire
+}

@@ -1,0 +1,13 @@
+/* Connex.css */
+
+.card {
+    border: 1px solid #ddd; /* Bordure grise */
+    border-radius: 5px; /* Coins arrondis */
+    margin-top: 20px; /* Espacement par rapport au haut */
+  }
+  
+  .card-header {
+    background-color: #007bff; /* Fond bleu pour l'en-tête */
+    color: #fff; /* Texte blanc pour l'en-tête */
+  }
+  

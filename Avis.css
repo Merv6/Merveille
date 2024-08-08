@@ -1,0 +1,79 @@
+:root {
+  --color-primary: #2ecc71; 
+  --color-secondary: #e74c3c; 
+  --color-bg: #f5f5f5; 
+  --color-text: #333333; 
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.navbar {
+  background-color: var(--color-primary);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: var(--color-text);
+}
+
+.navbar-toggler-icon {
+  color: var(--color-text);
+}
+
+.jumbotron {
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  transition: background-color 0.3s ease;
+  color: var(--color-text);
+}
+
+.btn-primary:hover {
+  background-color: darken(var(--color-primary), 10%);
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  transition: background-color 0.3s ease;
+  color: var(--color-text);
+}
+
+.btn-secondary:hover {
+  background-color: darken(var(--color-secondary), 10%);
+}
+
+.container {
+  max-width: 600px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 1px solid var(--color-primary);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+}
+
+.footer a {
+  color: var(--color-text);
+}
+.avis-btn {
+  background-color: #e74c3c; 
+  color: var(--color-text);
+  border-color: #e74c3c; 
+}
+
+.avis-btn:hover {
+  background-color: darken(#e74c3c, 10%);
+}

@@ -1,0 +1,35 @@
+/* Ajoutez vos styles personnalisés ici */
+
+body {
+    background-color: #f8f9fa; /* Couleur de fond */
+  }
+  
+  .container {
+    max-width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px solid #dee2e6; /* Bordure */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Couleur de fond du bouton */
+    border-color: #007bff; /* Couleur de bordure du bouton */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9; /* Couleur de fond du bouton au survol */
+    border-color: #0062cc; /* Couleur de bordure du bouton au survol */
+  }
+  
+  .text-center {
+    text-align: center; /* Centrage du texte */
+    margin-top: 20px; /* Marge en haut */
+  }
+  
+  .text-center p {
+    margin-bottom: 10px; /* Marge en bas pour les paragraphes */
+  }
+  
